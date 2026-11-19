@@ -117,7 +117,7 @@ h1,h2,h3{font-family:var(--t-titulo);line-height:1.15;margin:0;letter-spacing:-.
 
 /* Cifras */
 .cifras{background:var(--noche-2);color:#fff;border-top:1px solid var(--linea);border-bottom:1px solid var(--linea)}
-.cifras .contenedor{display:grid;grid-template-columns:repeat(4,1fr)}
+.cifras .contenedor{display:grid;grid-template-columns:repeat(3,1fr)}
 .cifra{padding:34px 24px;border-left:1px solid var(--linea)}
 .cifra:first-child{border-left:0;padding-left:0}
 .cifra b{display:block;font-family:var(--t-titulo);font-size:clamp(30px,3.4vw,42px);font-weight:700;line-height:1.1;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
@@ -406,7 +406,7 @@ body.bloqueado{overflow:hidden}
   .flotante.uno{left:10px}.flotante.dos{right:10px}
   .cifras .contenedor{grid-template-columns:1fr 1fr}
   .cifra{padding:26px 20px}
-  .cifra:nth-child(3){border-left:0;padding-left:0}
+  .cifra:nth-child(3){border-left:0;padding-left:0;grid-column:1/-1}
   .cifra:nth-child(-n+2){border-bottom:1px solid var(--linea)}
   .foto-nosotros{max-width:520px}
   .sello{right:12px}
@@ -538,7 +538,7 @@ body.bloqueado{overflow:hidden}
         <img data-foto="siemens-3" alt="ODF con conectores en la Planta Siemens" loading="lazy">
         <img data-foto="zf-3" alt="Mufa de 288 hilos intervenida en Zona Franca Fontibón" loading="lazy">
       </figure>
-      <div class="flotante uno"><b>488</b><span>hilos fusionados y<br>certificados en un proyecto</span></div>
+      <div class="flotante uno"><b>20</b><span>regiones del país<br>con obras ejecutadas</span></div>
       <div class="flotante dos"><b>5G</b><span>LTE · GPON · FTTH<br>radio enlaces</span></div>
     </div>
   </div>
@@ -548,9 +548,8 @@ body.bloqueado{overflow:hidden}
 <section class="cifras" aria-label="WLAN en cifras">
   <div class="contenedor">
     <div class="cifra aparece"><b>+<span class="num" data-contar="600">600</span></b><span>proyectos ejecutados desde 2020</span></div>
-    <div class="cifra aparece retraso-1"><b data-contar="6">6</b><span>regiones del país con obras ejecutadas</span></div>
-    <div class="cifra aparece retraso-2"><b data-contar="488">488</b><span>hilos certificados en Planta Siemens</span></div>
-    <div class="cifra aparece retraso-3"><b>360°</b><span>diseño, obra, instalación y mantenimiento</span></div>
+    <div class="cifra aparece retraso-1"><b data-contar="20">20</b><span>regiones del país con obras ejecutadas</span></div>
+    <div class="cifra aparece retraso-2"><b>360°</b><span>diseño, obra, instalación y mantenimiento</span></div>
   </div>
 </section>
 
